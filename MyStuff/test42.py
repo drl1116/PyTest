@@ -136,3 +136,21 @@ class Game(object):
 
         good_pod = randint(1, 5)
         guess = raw_input("[pod #]> ")
+
+        if int(guess) != good_pod:
+            print "You jump into pod %s and hit the eject button." % guess
+            print "The pod escapes out into the void of space, then"
+            print "implodes as the hull ruptures, crushing your body"
+            print "into jam jelly."
+            return 'death'
+        else:
+            print "You jump into pod %s and hit the eject button." % guess
+            print "the planet below. As it flies to the planet, you look"
+            print "back and see your ship implode then explode like a"
+            print "bright star, taking out the Gothon ship at the same"
+            print "time. You won!"
+            exit(0)
+
+
+a_game = Game("central_corridor")
+a_game.play()
