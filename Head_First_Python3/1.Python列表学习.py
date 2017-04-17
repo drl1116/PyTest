@@ -1,4 +1,5 @@
-# -*-coding=utf-8-*-
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
 
 # 建立列表
 movies = ["The Holy Grail", "The Life of Brian", "The Meaning of Life"]
