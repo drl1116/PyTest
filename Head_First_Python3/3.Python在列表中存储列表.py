@@ -15,7 +15,7 @@ for each_item in movies:
     print(each_item)
 
 # 检查某个特定标识符是否包含某个特定类型:isinstance()
-names = ['Michael', 'Terry']
+names = ['Micheal', 'Terry']
 isinstance(names, list)
 # 输出为True
 num_names = len(names)
@@ -35,3 +35,19 @@ for each_item in movies:
     else:
         print(each_item)
 print('-------------------------------------------------------')
+
+# 处理多层嵌套列表数据
+for each_item in movies:
+    if isinstance(each_item, list):
+        for nested_item in each_item:
+            if isinstance(nested_item, list):
+                for deeper_item in nested_item:
+                    if isinstance(deeper_item, list):
+                        for deepest_item in deeper_item:
+                            print(deepest_item)
+                    else:
+                        print(deeper_item)
+            else:
+                print(nested_item)
+    else:
+        print(each_item)
