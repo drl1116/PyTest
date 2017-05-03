@@ -1,5 +1,5 @@
 # !/usr/bin/python
-# -*- coding:utf-8 -*-
+# -*- coding: utf-8 -*-
 # 还是上面那个例子,这次采用函数解决
 movies = ["The Holy Grail", "Terry Jones & Terry Gilliam", 91,
           ["Graham Chapman",

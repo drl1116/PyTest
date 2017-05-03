@@ -1,5 +1,5 @@
 # !/usr/bin/python
-# -*- coding:utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # 在列表中存储列表
 movies = ["The Holy Grail", "Terry Jones & Terry Gilliam", 91,
