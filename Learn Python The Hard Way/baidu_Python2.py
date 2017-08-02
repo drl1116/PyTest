@@ -3,7 +3,8 @@
 from selenium import webdriver
 import time
 
-profiles = "C:\Users\Alice\AppData\Roaming\Mozilla\Firefox\Profiles\s4q4qgmq.default"
+profiles = webdriver.FirefoxProfile(r'火狐配置路径')
+
 driver = webdriver.Firefox(profiles)
 url1 = "http://www.baidu.com/"
 
