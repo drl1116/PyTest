@@ -2,7 +2,7 @@
 import os
 pwd = os.getcwd()
 print(pwd)
-os.chdir('D:/DRL/SourceTree/PyTest/Head_First_Python3/chapter')
+os.chdir('D:\DRL\PyTest\Head_First_Python3/chapter')
 pwd = os.getcwd()
 print(pwd)
 print('-----------------------')
